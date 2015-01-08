@@ -1,3 +1,7 @@
+package Question1_7;
+
+import CtCILibrary.*;
+
 public class Question{
 	public static void setZero(int [][] mat) {
 		int N = mat[0].length;
@@ -29,8 +33,11 @@ public class Question{
 	}
 
 	public static void main(String args[]){
-		int [][] matrix = {{1},{4}};
+		int[][] matrix = AssortedMethods.randomMatrix(5, 5, 0, 9);
+		AssortedMethods.printMatrix(matrix);
 		setZero(matrix);
+		System.out.println();
+		AssortedMethods.printMatrix(matrix);
 
 	}
 }
