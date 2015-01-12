@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="Chapter 1"/>
 	<classpathentry kind="src" path="CtCILibrary"/>
 	<classpathentry kind="src" path="Misc"/>
+	<classpathentry kind="src" path="Chapter 2"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
