@@ -55,6 +55,11 @@ public class Solution {
 		return sumHead;
 	}
 	
+	
+	public static LinkedListNode addforward(LinkedListNode a, LinkedListNode b){
+		
+	}
+	
 	public static int linkedListToInt(LinkedListNode node) {
 		int value = 0;
 		if (node.next != null) {
