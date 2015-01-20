@@ -20,6 +20,8 @@ public class Solution {
 		return null;
 	}
 	
+	
+	// Method 2, using two pointers 
 	public static LinkedListNode findLoopStartPtr( LinkedListNode head){
 		if ( head == null || head.next == null) return null;
 		LinkedListNode ptr1 = head;
@@ -56,7 +58,7 @@ public class Solution {
 		detectedLoopStart = findLoopStartHash(start);
 		detectedLoopStart2 = findLoopStartPtr(start);
 		System.out.println(detectedLoopStart);
-		System.out.println(detectedLoopStart2);
+		System.out.println(detectedLoopStart2) ;
 	}
 
 }
