@@ -1,5 +1,12 @@
 package Question3_1;
 
+import java.util.EmptyStackException;
+
+/** this is my simple implementation for the 
+ *  array base three stacks.
+ * @author Chengxiang
+ *
+ */
 public class FixedStack {
 	private static final int N = 1000;
 	private int [] array = new int[N];
@@ -22,7 +29,7 @@ public class FixedStack {
 	
 	public int pop(int stackNum) {
 		if (isEmpty(stackNum)) {
-			throw new Exception();
+			throw new EmptyStackException();
 		}
 		int index = this.pos[stackNum]--;
 		return array[index];
@@ -34,7 +41,7 @@ public class FixedStack {
 	
 	private void checkCapacity(int index, int stackNum) {
 		if (index > end[stackNum]) {
-			throw new Exception();
+			throw new FullStackException();
 		}
 	}
 }
