@@ -1,0 +1,17 @@
+INDEX VERSION 1.127+E:\Cornell\Curricula\Coding\CTCI\Java\.metadata\.plugins\org.eclipse.jdt.core
+207995708.index
+166079156.index
+3920170254.index
+3855264266.index
+2953247463.index
+3130663614.index
+3591396557.index
+1600589330.index
+1606728244.index
+3603740448.index
+1471405091.index
+3714765875.index
+4158292768.index
+3589586912.index
+2068946130.index
+1984578466.index
