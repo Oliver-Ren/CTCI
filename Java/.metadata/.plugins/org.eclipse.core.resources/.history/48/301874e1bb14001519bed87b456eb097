@@ -1,0 +1,16 @@
+package Quesiotn3_2;
+
+import java.util.LinkedList;
+
+public class Stack<T> {
+	private LinkedList<T> backupStack;
+	
+	public Stack() {
+		backupStack = new LinkedList<T>();
+	}
+	
+	public void push(T element) {
+		backupStack.addLast(element);
+		backupStack.getLast().
+	}
+}
